@@ -1,0 +1,13 @@
+header {
+    max-width: 1200px;
+    height: 51.55rem;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    position: sticky;
+    top: -45.05rem;
+    z-index: 1;
+}
+header > div:first-child {
+    height: 42.55rem;
+    overflow: hidden;
+}

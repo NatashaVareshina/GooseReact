@@ -1,0 +1,25 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem 7rem;
+}
+.firstItem.love {
+    grid-column: 2;
+    display: grid;
+    align-content: space-between;
+}
+h2 {
+    margin: 0 0 2.5rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: white;
+}
+div > p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.secondItem.love {
+    grid-column: 3 / 5;
+}
+img {
+    max-width: 100%;
+}

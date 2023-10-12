@@ -1,0 +1,23 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem 7rem;
+}
+.firstItem {
+    grid-column: 1;
+}
+h2 {
+    margin: 0 0 2.5rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: hite;
+}
+img {
+    max-width: 100%;
+}
+.secondItem {
+    grid-column: 3;
+}
+div > p:not(:last-child) {
+    margin-bottom: 1rem;
+}
